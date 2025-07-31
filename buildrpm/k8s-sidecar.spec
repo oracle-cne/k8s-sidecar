@@ -12,7 +12,7 @@
 
 Name:           %{_name}
 Version:        {{{ $version }}}
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        This is a docker container intended to run inside a kubernetes cluster to collect config maps with a specified label and store the included files in a local folder.
 License:        MIT
 Vendor:		    Oracle America
@@ -44,8 +44,5 @@ cp -a %{_builddir}/%{name}-%{version}/* %{buildroot}/usr/local/share/olcne/%{nam
 /usr/local/share/olcne/%{name}/
 
 %changelog
-* {{{.changelog_timestamp}}} - {{{$version}}}-2
-- Updated Dockerfile to install Python requirements for execution
-
 * {{{.changelog_timestamp}}} - {{{$version}}}-1
 - Added Oracle Specific Build Files for k8s-sidecar
