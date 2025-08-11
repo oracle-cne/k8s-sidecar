@@ -5,7 +5,7 @@ set -x
 CONTAINER_CLI="${CONTAINER_CLI:-podman}"
 
 name="k8s-sidecar"
-version="1.30.7"
+version="{{{ .major }}}.{{{ .minor }}}.{{{ .patch }}}"
 registry="container-registry.oracle.com/olcne"
 docker_tag=${registry}/${name}:v${version}
 
