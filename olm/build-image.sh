@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Testing
+
 set -x
 
 CONTAINER_CLI="${CONTAINER_CLI:-podman}"
