@@ -1,0 +1,179 @@
+Third-party runtime dependency attributions for the k8s-sidecar 2.6.1 Oracle image build
+
+This file records the Python packages installed by the Python 3.12 pip install from olm/builds/Dockerfile.
+
+Package: argparse
+Version: 1.4.0
+License: Python Software Foundation License
+Project URL: https://github.com/ThomasWaldmann/argparse/
+Author: Thomas Waldmann <tw@waldmann-edv.de>
+Bundled license files: Not provided in wheel metadata
+Summary: Python command-line parsing library
+
+Package: certifi
+Version: 2026.4.22
+License: MPL-2.0
+Project URL: https://github.com/certifi/python-certifi
+Author: Kenneth Reitz <me@kennethreitz.com>
+Bundled license files: certifi-2026.4.22.dist-info/licenses/LICENSE
+Summary: Python package for providing Mozilla's CA Bundle.
+
+Package: cffi
+Version: 2.0.0
+License: MIT
+Project URL: https://github.com/python-cffi/cffi
+Author: Armin Rigo, Maciej Fijalkowski
+Bundled license files: cffi-2.0.0.dist-info/licenses/LICENSE
+Summary: Foreign Function Interface for Python calling C code.
+
+Package: charset-normalizer
+Version: 3.4.7
+License: MIT
+Project URL: https://github.com/jawah/charset_normalizer
+Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+Bundled license files: charset_normalizer-3.4.7.dist-info/licenses/LICENSE
+Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+
+Package: cryptography
+Version: 47.0.0
+License: Apache-2.0 OR BSD-3-Clause
+Project URL: https://github.com/pyca/cryptography
+Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
+Bundled license files: cryptography-47.0.0.dist-info/licenses/LICENSE, cryptography-47.0.0.dist-info/licenses/LICENSE.APACHE, cryptography-47.0.0.dist-info/licenses/LICENSE.BSD
+Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+
+Package: durationpy
+Version: 0.10
+License: MIT
+Project URL: https://github.com/icholy/durationpy
+Author: Ilia Choly <ilia.choly@gmail.com>
+Bundled license files: durationpy-0.10.dist-info/LICENSE
+Summary: Module for converting between datetime.timedelta and Go's Duration strings.
+
+Package: google-auth
+Version: 2.49.2
+License: Apache 2.0
+Project URL: https://github.com/googleapis/google-auth-library-python
+Author: Google Cloud Platform <googleapis-packages@google.com>
+Bundled license files: google_auth-2.49.2.dist-info/licenses/LICENSE
+Summary: Google Authentication Library
+
+Package: idna
+Version: 3.13
+License: BSD-3-Clause
+Project URL: https://github.com/kjd/idna
+Author: Kim Davies <kim+pypi@gumleaf.org>
+Bundled license files: idna-3.13.dist-info/licenses/LICENSE.md
+Summary: Internationalized Domain Names in Applications (IDNA)
+
+Package: kubernetes
+Version: 32.0.1
+License: Apache License Version 2.0
+Project URL: https://github.com/kubernetes-client/python
+Author: Kubernetes
+Bundled license files: kubernetes-32.0.1.dist-info/LICENSE
+Summary: Kubernetes python client
+
+Package: logfmter
+Version: 0.0.12
+License: MIT
+Project URL: https://github.com/josheppinette/python-logfmter
+Author: Joshua Taylor Eppinette <josheppinette@gmail.com>
+Bundled license files: logfmter-0.0.12.dist-info/licenses/LICENSE.txt
+Summary: A Python package which supports global logfmt formatted logging.
+
+Package: oauthlib
+Version: 3.3.1
+License: BSD-3-Clause
+Project URL: https://github.com/oauthlib/oauthlib
+Author: The OAuthlib Community
+Bundled license files: oauthlib-3.3.1.dist-info/licenses/LICENSE
+Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+
+Package: pyasn1
+Version: 0.6.3
+License: BSD-2-Clause
+Project URL: https://github.com/pyasn1/pyasn1
+Author: Ilya Etingof <etingof@gmail.com>
+Bundled license files: pyasn1-0.6.3.dist-info/licenses/LICENSE.rst
+Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
+
+Package: pyasn1_modules
+Version: 0.4.2
+License: BSD
+Project URL: https://github.com/pyasn1/pyasn1-modules
+Author: Ilya Etingof <etingof@gmail.com>
+Bundled license files: pyasn1_modules-0.4.2.dist-info/licenses/LICENSE.txt
+Summary: A collection of ASN.1-based protocols modules
+
+Package: pycparser
+Version: 3.0
+License: BSD-3-Clause
+Project URL: https://github.com/eliben/pycparser
+Author: Eli Bendersky <eliben@gmail.com>
+Bundled license files: pycparser-3.0.dist-info/LICENSE
+Summary: C parser in Python
+
+Package: python-dateutil
+Version: 2.9.0.post0
+License: Dual License
+Project URL: https://github.com/dateutil/dateutil
+Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+Bundled license files: python_dateutil-2.9.0.post0.dist-info/LICENSE
+Summary: Extensions to the standard Python datetime module
+
+Package: python-json-logger
+Version: 4.1.0
+License: BSD-2-Clause
+Project URL: https://nhairs.github.io/python-json-logger
+Author: Zakaria Zajac <zak@madzak.com>, Nicholas Hairs <info+python-json-logger@nicholashairs.com>
+Bundled license files: python_json_logger-4.1.0.dist-info/licenses/LICENSE
+Summary: JSON Log Formatter for the Python Logging Package
+
+Package: PyYAML
+Version: 6.0.3
+License: MIT
+Project URL: https://pyyaml.org/
+Author: Kirill Simonov <xi@resolvent.net>
+Bundled license files: pyyaml-6.0.3.dist-info/licenses/LICENSE
+Summary: YAML parser and emitter for Python
+
+Package: requests
+Version: 2.33.1
+License: Apache-2.0
+Project URL: https://github.com/psf/requests
+Author: Kenneth Reitz <me@kennethreitz.org>
+Bundled license files: requests-2.33.1.dist-info/licenses/LICENSE, requests-2.33.1.dist-info/licenses/NOTICE
+Summary: Python HTTP for Humans.
+
+Package: requests-oauthlib
+Version: 2.0.0
+License: ISC
+Project URL: https://github.com/requests/requests-oauthlib
+Author: Kenneth Reitz <me@kennethreitz.com>
+Bundled license files: requests_oauthlib-2.0.0.dist-info/LICENSE
+Summary: OAuthlib authentication support for Requests.
+
+Package: six
+Version: 1.17.0
+License: MIT
+Project URL: https://github.com/benjaminp/six
+Author: Benjamin Peterson <benjamin@python.org>
+Bundled license files: six-1.17.0.dist-info/LICENSE
+Summary: Python 2 and 3 compatibility utilities
+
+Package: urllib3
+Version: 2.6.3
+License: MIT
+Project URL: https://github.com/urllib3/urllib3
+Author: Andrey Petrov <andrey.petrov@shazow.net>
+Bundled license files: urllib3-2.6.3.dist-info/licenses/LICENSE.txt
+Summary: HTTP library with thread-safe connection pooling, file post, and more.
+
+Package: websocket-client
+Version: 1.9.0
+License: Apache-2.0
+Project URL: https://github.com/websocket-client/websocket-client.git
+Author: liris <liris.pp@gmail.com>
+Bundled license files: websocket_client-1.9.0.dist-info/licenses/LICENSE
+Summary: WebSocket client for Python with low level API options
