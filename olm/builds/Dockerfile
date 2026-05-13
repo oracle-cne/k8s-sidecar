@@ -1,12 +1,13 @@
 FROM container-registry.oracle.com/os/oraclelinux:9-slim
 
-COPY LICENSE SECURITY.md THIRD_PARTY_LICENSES.txt /usr/share/licenses/
+COPY LICENSE SECURITY.md /usr/share/licenses/
 
 COPY . /usr/src/k8s-sidecar
 
-RUN microdnf install -y python3-pip && \
+RUN if [ -f /usr/src/k8s-sidecar/THIRD_PARTY_LICENSES.txt ]; then cp /usr/src/k8s-sidecar/THIRD_PARTY_LICENSES.txt /usr/share/licenses/; fi && \
+    microdnf install -y python3.12 python3.12-pip && \
     microdnf clean all && \
-    python3 -m pip install -r /usr/src/k8s-sidecar/src/requirements.txt
+    python3.12 -m pip install --no-cache-dir /usr/src/k8s-sidecar
 
 ENV         PYTHONUNBUFFERED=1
 WORKDIR     /usr/src/k8s-sidecar/src
@@ -15,4 +16,4 @@ WORKDIR     /usr/src/k8s-sidecar/src
 # https://kubernetes.io/docs/concepts/policy/pod-security-policy/#users-and-groups
 USER        65534:65534
 
-CMD         [ "python3", "-u", "./sidecar.py" ]
+CMD         [ "python3.12", "-u", "./sidecar.py" ]
